@@ -1,0 +1,42 @@
+body {
+    background: url("../images/background.jpg") center no-repeat;
+}
+
+.check-block {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.check-data {
+    margin-bottom: 50px;
+}
+
+.check-string {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.check-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.check-result {
+    font-size: 24px;
+}
+
+.valid {
+    color: #4CAF50;
+}
+
+.invalid {
+    color: brown;
+}
